@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: url(img/Talking-Trash-1280x720.jpeg), #000000a9 no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 65px;
+    height: auto;
+    padding: 5px 95px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 6px 13px;
+    font-family: "Roboto", sans-serif;
+    transition: 0.4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: rgba(58, 157, 231, 1);
+    border-radius: 2px;
+}
+
+.problem,
+.solution {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.problem .thumbnail {
+    height: 200px;
+}
+
+.solution .thumbnail {
+    height: 200px;
+}
+
+.problem .desc {
+    text-align: left;
+}
+
+.solution .desc {
+    text-align: right;
+}

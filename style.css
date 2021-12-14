@@ -1,88 +1,102 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:700&display=swap");
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
+
 .wrapper {
-  background: url(bundaran_hi_darken.png), #000000a9 no-repeat;
-  background-size: cover;
-  height: 100vh;
+    background: url(img/bundaran_hi_darken.png), #000000a9 no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
+
 .navbar {
-  height: 80px;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5);
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
+
 .logo {
-  width: 65px;
-  height: auto;
-  padding: 5px 95px;
+    width: 65px;
+    height: auto;
+    padding: 5px 95px;
 }
+
 .navbar ul {
-  float: right;
-  margin-right: 20px;
+    float: right;
+    margin-right: 20px;
 }
+
 .navbar ul li {
-  list-style: none;
-  margin: 0 8px;
-  display: inline-block;
-  line-height: 80px;
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
 }
+
 .navbar ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 22px;
-  padding: 6px 13px;
-  font-family: "Roboto", sans-serif;
-  transition: 0.4s;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 6px 13px;
+    font-family: "Roboto", sans-serif;
+    transition: 0.4s;
 }
+
 .navbar ul li a.active,
 .navbar ul li a:hover {
-  background: rgba(58, 157, 231, 1);
-  border-radius: 2px;
+    background: rgba(58, 157, 231, 1);
+    border-radius: 2px;
 }
+
 .wrapper .center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: sans-serif;
-  user-select: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
 }
+
 .center h1 {
-  color: white;
-  font-size: 90px;
-  font-weight: bold;
-  width: 900px;
-  text-align: center;
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
 }
+
 .center h2 {
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
-  width: 885px;
-  margin-top: 10px;
-  text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
 }
+
 .center .buttons {
-  margin: 30px 280px;
+    margin: 30px 280px;
 }
+
 .buttons button {
-  height: 50px;
-  width: 150px;
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-  background: rgba(58, 157, 231, 1);
-  border: 2px solid whitesmoke;
-  outline: none;
-  cursor: pointer;
-  border-radius: 25px;
-  transition: 0.5s;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgba(58, 157, 231, 1);
+    border: 2px solid whitesmoke;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.5s;
 }
+
 .buttons .btn {
-  margin-left: 25px;
+    margin-left: 25px;
 }
+
 .buttons button:hover {
-  background: rgb(6, 134, 231);
+    background: rgb(6, 134, 231);
 }
