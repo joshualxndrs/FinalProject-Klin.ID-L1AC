@@ -7,31 +7,30 @@
 }
 
 .wrapper {
-    background: url(img/Talking-Trash-1280x720.jpeg), #000000a9 no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Talking-Trash-1280x720.jpeg);
     background-size: cover;
     height: 100vh;
 }
 
 .navbar {
-    height: 80px;
+    height: 10%;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
 
 .logo {
-    width: 65px;
-    height: auto;
-    padding: 5px 95px;
+    width: auto;
+    height: 100%;
+    margin-left: 2%;
 }
 
 .navbar ul {
     float: right;
-    margin-right: 20px;
+    margin-right: 3%;
 }
 
 .navbar ul li {
     list-style: none;
-    margin: 0 8px;
     display: inline-block;
     line-height: 80px;
 }
@@ -51,23 +50,9 @@
     border-radius: 2px;
 }
 
-
-/* .problem,
-.solution {
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.container {
     padding: 5%;
-    display: flex;
-    flex-direction: row;
 }
-
-.problem .thumbnail {
-    height: 200px;
-}
-
-.solution .thumbnail {
-    height: 200px;
-} */
 
 .problem,
 .solution {
@@ -75,21 +60,34 @@
     flex-direction: row;
 }
 
+.problem {
+    margin-bottom: 2%;
+}
+
 .solution .thumbnail,
 .problem .thumbnail {
-    width: 370px;
-    height: 235px;
-    margin: 5%;
+    height: 17vw;
 }
 
 .problem .desc {
     text-align: left;
-    margin: 5%;
-    width: 450px;
-    height: 60px;
+    width: 80%;
+    height: auto;
+    margin-right: 2%;
 }
 
 .solution .desc {
+    top: 50%;
     text-align: right;
-    margin: 5%;
+    width: 80%;
+    height: 60px;
+    margin-left: 2%;
+}
+
+.desc-con {
+    transform: translateY(50%)
+}
+
+h2 {
+    font-size: xx-large;
 }
