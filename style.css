@@ -41,6 +41,7 @@
     padding: 6px 13px;
     font-family: "Roboto", sans-serif;
     transition: 0.4s;
+    margin-left: 5px;
 }
 
 .navbar ul li a.active,

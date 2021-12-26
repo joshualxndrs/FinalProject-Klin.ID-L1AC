@@ -13,6 +13,7 @@
 }
 
 .navbar {
+    overflow: hidden;
     height: 10%;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
@@ -26,13 +27,14 @@
 
 .navbar ul {
     float: right;
-    margin-right: 3%;
+    margin-right: 3px;
 }
 
 .navbar ul li {
     list-style: none;
     display: inline-block;
     line-height: 80px;
+    margin-left: 5px;
 }
 
 .navbar ul li a {
@@ -42,6 +44,7 @@
     padding: 6px 13px;
     font-family: "Roboto", sans-serif;
     transition: 0.4s;
+    margin-left: 5px;
 }
 
 .navbar ul li a.active,
