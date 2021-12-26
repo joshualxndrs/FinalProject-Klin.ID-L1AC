@@ -7,7 +7,7 @@
 }
 
 .wrapper {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Talking-Trash-1280x720.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/trash_mountain.webp);
     background-size: cover;
     height: 100vh;
 }
