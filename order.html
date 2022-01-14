@@ -11,17 +11,43 @@
 </head>
 
 <body>
+    <nav class="navbar">
+        <img class="logo" src="img/horizontal_klin_revised.webp">
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="service.html">Services</a>
+            <a class="active" href="#">Orders</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html">Contacts</a>
+        </ul>
+    </nav>
     <div class="wrapper">
-        <nav class="navbar">
-            <img class="logo" src="img/Klin.id logo_blue.webp">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li><a class="active" href="#">Orders</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="contact.html">Contacts</a></li>
-            </ul>
-        </nav>
+        <div class="form">
+            <div class="form-title">Order Form</div>
+            <div class="input input-name">
+                <div class="prompt">Name</div>
+                <input type="text" , placeholder="First Name">
+                <input type="text" , placeholder="Last Name">
+            </div>
+            <div class="input input-email">
+                <div class="prompt">Email</div>
+                <input type="email" , placeholder="example@mail.com">
+            </div>
+            <div class="input input-phone">
+                <div class="prompt">Phone</div>
+                <input type="tel" , pattern="+62-[0-9]{3}-[0-9]{3}" , placeholder="+62-123-456">
+            </div>
+            <div class="input input-address">
+                <div class="prompt">Address</div>
+                <input type="text">
+            </div>
+            <div class="input input-subject">
+                <div class="prompt">Subject</div>
+                <input type="text">
+            </div>
+            <button class="order-btn">Order</button>
+        </div>
     </div>
+
 </body>
