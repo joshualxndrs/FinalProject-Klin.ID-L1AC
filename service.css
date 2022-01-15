@@ -50,7 +50,6 @@ header {
     transition: 0.4s;
     margin-left: 5px;
     list-style: none;
-    display: inline-block;
     line-height: 80px;
 }
 

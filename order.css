@@ -14,6 +14,7 @@ body {
 
 .wrapper {
     height: 100vh;
+    overflow-y: hidden;
 }
 
 .navbar {
@@ -68,7 +69,7 @@ form {
     margin-bottom: 2%;
 }
 
-.order-btn {
+button {
     font-size: 18px;
     font-weight: bold;
     background: rgba(58, 157, 231, 1);
