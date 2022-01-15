@@ -129,8 +129,10 @@ h2 {
     }
     .solution .desc,
     .problem .desc {
+        top: 0;
         margin: 0 auto;
         display: block;
+        padding-top: 5%;
         padding-bottom: 10%;
     }
     .desc-con {
