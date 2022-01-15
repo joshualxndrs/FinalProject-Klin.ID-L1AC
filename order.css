@@ -100,8 +100,6 @@ input {
         width: 100%;
     }
     .logo {
-        width: auto;
-        background-color: blue;
         margin: 0% auto;
         display: block;
     }

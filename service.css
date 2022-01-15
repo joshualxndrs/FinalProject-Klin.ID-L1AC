@@ -42,13 +42,7 @@ header {
     margin-right: 5px;
 }
 
-.navbar ul li {
-    list-style: none;
-    display: inline-block;
-    line-height: 80px;
-}
-
-.navbar ul li a {
+.navbar ul a {
     text-decoration: none;
     color: white;
     font-size: 22px;
@@ -56,10 +50,13 @@ header {
     font-family: "Roboto", sans-serif;
     transition: 0.4s;
     margin-left: 5px;
+    list-style: none;
+    display: inline-block;
+    line-height: 80px;
 }
 
-.navbar ul li a.active,
-.navbar ul li a:hover {
+.navbar ul a.active,
+.navbar ul a:hover {
     background: rgba(58, 157, 231, 1);
     border-radius: 2px;
 }
@@ -108,4 +105,27 @@ p {
 
 .pic {
     height: 30vh;
+}
+
+@media (orientation: portrait) {
+    .logo {
+        margin: 0% auto;
+        display: block;
+    }
+    .navbar ul {
+        float: none;
+        margin-top: 2%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar ul a {
+        height: 10%;
+        font-size: medium;
+        margin: 0;
+        padding: 0 1%;
+        line-height: 30px;
+    }
+    .pic {
+        display: none;
+    }
 }

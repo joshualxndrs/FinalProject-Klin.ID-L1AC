@@ -5,21 +5,21 @@
 }
 
 .wrapper {
-    background: url(img/welcome.webp), #000000a9 no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/welcome.webp);
     background-size: cover;
     height: 100vh;
 }
 
 .navbar {
-    height: 80px;
+    height: 10%;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
 
 .logo {
-    width: 65px;
-    height: auto;
-    padding: 5px 95px;
+    height: 100%;
+    width: auto;
+    margin-left: 2%;
 }
 
 .navbar ul {
@@ -27,14 +27,14 @@
     margin-right: 20px;
 }
 
-.navbar ul li {
+.navbar ul {
     list-style: none;
     margin: 0 8px;
     display: inline-block;
     line-height: 80px;
 }
 
-.navbar ul li a {
+.navbar ul a {
     text-decoration: none;
     color: white;
     font-size: 22px;
@@ -42,10 +42,13 @@
     font-family: "Roboto", sans-serif;
     transition: 0.4s;
     margin-left: 5px;
+    list-style: none;
+    margin: 0 8px;
+    line-height: 80px;
 }
 
-.navbar ul li a.active,
-.navbar ul li a:hover {
+.navbar ul a.active,
+.navbar ul a:hover {
     background: rgba(58, 157, 231, 1);
     border-radius: 2px;
 }
@@ -100,4 +103,48 @@
 
 .buttons button:hover {
     background: rgb(6, 134, 231);
+}
+
+@media (orientation: portrait) {
+    .logo {
+        margin: 0 auto;
+        display: block;
+    }
+    .navbar ul {
+        float: none;
+        margin-top: 2%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar ul a {
+        height: 10%;
+        font-size: medium;
+        margin: 0;
+        padding: 0 1%;
+        line-height: 30px;
+    }
+    .center {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .center h1 {
+        font-size: xx-large;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .center h2 {
+        font-size: x-large;
+        margin: 0 auto;
+        display: block;
+        width: 90%;
+    }
+    .center .buttons {
+        margin: 1% auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .center .buttons .btn {
+        margin: 0;
+    }
 }

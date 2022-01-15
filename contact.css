@@ -177,7 +177,7 @@
 
 .contact-form .inputBox input[type="submit"] {
     width: 100px;
-    background: rgb(0, 86, 245);
+    background: rgb(7, 140, 241);
     color: white;
     border: none;
     cursor: pointer;
@@ -187,8 +187,6 @@
 
 @media (orientation: portrait) {
     .logo {
-        width: auto;
-        background-color: blue;
         margin: 0% auto;
         display: block;
     }

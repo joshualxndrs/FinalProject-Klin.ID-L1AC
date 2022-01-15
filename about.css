@@ -10,10 +10,10 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/trash_mountain.webp);
     background-size: cover;
     height: 100vh;
+    overflow: hidden;
 }
 
 .navbar {
-    overflow: hidden;
     height: 10%;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
@@ -27,17 +27,10 @@
 
 .navbar ul {
     float: right;
-    margin-right: 3px;
+    margin-right: 5px;
 }
 
-.navbar ul li {
-    list-style: none;
-    display: inline-block;
-    line-height: 80px;
-    margin-left: 5px;
-}
-
-.navbar ul li a {
+.navbar ul a {
     text-decoration: none;
     color: white;
     font-size: 22px;
@@ -45,10 +38,13 @@
     font-family: "Roboto", sans-serif;
     transition: 0.4s;
     margin-left: 5px;
+    list-style: none;
+    margin: 0 8px;
+    line-height: 80px;
 }
 
-.navbar ul li a.active,
-.navbar ul li a:hover {
+.navbar ul a.active,
+.navbar ul a:hover {
     background: rgba(58, 157, 231, 1);
     border-radius: 2px;
 }
@@ -69,7 +65,8 @@
 
 .solution .thumbnail,
 .problem .thumbnail {
-    height: 17vw;
+    height: auto;
+    width: 30vw;
 }
 
 .problem .desc {
@@ -93,4 +90,50 @@
 
 h2 {
     font-size: xx-large;
+}
+
+@media (orientation: portrait) {
+    .container {
+        padding: 0;
+    }
+    .logo {
+        margin: 0 auto;
+        display: block;
+    }
+    .navbar ul {
+        float: none;
+        margin-top: 2%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar ul a {
+        height: 10%;
+        font-size: medium;
+        margin: 0;
+        padding: 0 1%;
+        line-height: 30px;
+    }
+    .container {
+        width: 100%;
+    }
+    .problem,
+    .solution {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+    .solution .thumbnail,
+    .problem .thumbnail {
+        display: none;
+    }
+    .solution .desc,
+    .problem .desc {
+        margin: 0 auto;
+        display: block;
+        padding-bottom: 10%;
+    }
+    .desc-con {
+        text-align: center;
+    }
 }
