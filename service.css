@@ -70,6 +70,14 @@ button {
     transition: 0.5s;
 }
 
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    background: rgb(6, 134, 231);
+}
+
 .container {
     margin-top: 10%;
 }
