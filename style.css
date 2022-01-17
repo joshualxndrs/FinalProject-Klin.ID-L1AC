@@ -99,6 +99,11 @@
     transition: 0.5s;
 }
 
+.buttons a {
+    margin: 0 4%;
+    display: block;
+}
+
 .buttons button:hover {
     background: rgb(6, 134, 231);
 }
