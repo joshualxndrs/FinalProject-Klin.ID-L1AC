@@ -23,4 +23,4 @@ Our app offers on-demand service to collect trash, offers waste training. Our ap
 <br>
 Google docs link: https://docs.google.com/document/d/1TMrpIFBDt1H1-WE39PenfBAPFQXHNRF6JK18bEAIX50/edit?usp=sharing
 <br>
-Youtube Demo Video link:
+Youtube Demo Video link:https://youtu.be/vBpUUOYhCN4
