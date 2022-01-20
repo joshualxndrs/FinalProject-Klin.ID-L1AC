@@ -18,7 +18,7 @@ Joshua Alexander Silalahi - 2502005244
 <br>
 #Description of the app:
 <br>
-Our app offers on-demand service to collect trash, offers waste training. Our app will help people to find a better solution to waste management by working togehter with small sustainability businesses and works with
+Our app offers on-demand service to collect trash, offers waste training. Our app will help people to find a better solution to waste management by working togehter with small sustainability businesses and works together with the local dumping repositories.
 <br>
 <br>
 Google docs link: https://docs.google.com/document/d/1TMrpIFBDt1H1-WE39PenfBAPFQXHNRF6JK18bEAIX50/edit?usp=sharing
